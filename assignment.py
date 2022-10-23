@@ -25,7 +25,7 @@ print("\033c")
 # 5. In weight coloumn some students write their weight in kg but most of them wrote in number only so i changed all the weight in number
 # ****************************************************************************************************************************************************
 
-dataSet = pd.read_csv('file url')
+dataSet = pd.read_csv('file_path')
 
 
 # 1. Print the list of all students whose  first name starts with letter the 'H'.
