@@ -37,5 +37,5 @@ with open('AmazonWebScrapper.csv', 'w', newline='', encoding='UTF') as f:
     writer.writerow(data)
 
 dataFile = pd.read_csv(
-    "/Users/muhammadali/Documents/University/Introduction to Data Science/Lab/WebScrapper/AmazonWebScrapper.csv")
+    "file_path")
 print(dataFile)
